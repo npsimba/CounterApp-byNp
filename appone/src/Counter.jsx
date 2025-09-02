@@ -6,7 +6,7 @@ function Counter() {
 
     return (
         <div className="flex flex-col items-center mt-10">
-            <h1 className ="text-2xl font-bold">Counter App</h1>
+            <h1 className ="text-2xl font-bold">Np's Counting App</h1>
             <p className="text-lg mt-3">Count: {count}</p>
 
             <div className="mt-4 space-x-4">
@@ -40,5 +40,6 @@ function Counter() {
         </div>
     );
 }
+
 
 export default Counter;
